@@ -11,9 +11,9 @@ int main() {
 	int RGB[3];
 	initArray(RGB, 3, 0);
 
-	RGB[0] = 122;
-	RGB[1] = 130;
-	RGB[2] = 136;
+	RGB[0] = getInt("Enter R value: ");
+	RGB[1] = getInt("Enter G value: ");
+	RGB[2] = getInt("Enter B value: ");
 	cout << "Classifying the following color: ";
 	printArr(RGB, 3);
 	cout << classifyColor(RGB[0], RGB[1], RGB[2]) << endl;
