@@ -1,12 +1,15 @@
 ﻿  Source.cpp
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(59): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(51): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(52): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(54): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(55): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(56): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(57): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\myproject\imageinterpretation\colorclassifier\colorclassifier\source.cpp(63): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
-  ColorClassifier.vcxproj -> C:\myProject\ImageInterpretation\ColorClassifier\Debug\ColorClassifier.exe
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(81): warning C4838: conversion from 'double' to 'int' requires a narrowing conversion
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(71): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(72): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(74): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(75): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(76): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(77): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(78): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(79): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(80): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+x:\users\brichey\myrepo\imageinterpretation\colorclassifier\colorclassifier\source.cpp(97): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
+  ColorClassifier.vcxproj -> X:\Users\BRichey\myRepo\ImageInterpretation\ColorClassifier\Debug\ColorClassifier.exe

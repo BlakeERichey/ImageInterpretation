@@ -1,5 +1,5 @@
-//Take tuple of RBG colors (255, 0, 255) and classifies that as 1 of 8 colors:
-//black, red, green, yellow, blue, cyan, magenta, white
+//Take tuple of RBG colors (255, 0, 255) and classifies that as 1 of 11 colors:
+//black, red, green, yellow, blue, cyan, magenta, white, orange, brown, grey
 #include "brichey.h"
 
 using namespace std;
@@ -41,12 +41,12 @@ string classifyColor(int r, int g, int b) {
 	int red[]     = { 255,   0,   0};
 	int cyan[]    = {   0, 255, 255};
 	int blue[]    = {   0,   0, 255};
-  int grey[]    = { 128, 128, 128};
+	int grey[]    = { 128, 128, 128};
 	int black[]   = {   0,   0,   0};
 	int green[]   = {   0, 255,   0};
 	int white[]   = { 255, 255, 255};
-  int brown[]   = { 101,  67,  33};
-  int orange[]  = { 255, 165,   0};
+	int brown[]   = { 101,  67,  33};
+	int orange[]  = { 255, 165,   0};
 	int yellow[]  = { 255, 255,   0};
 	int magenta[] = { 255,   0, 255};
 
@@ -56,12 +56,12 @@ string classifyColor(int r, int g, int b) {
 		int rd;
 		int cd;
 		int bd;
-    int grd;
+		int grd;
 		int bkd;
 		int gd;
 		int wd;
-    int brd;
-    int od;
+		int brd;
+		int od;
 		int yd;
 		int md;
 	};
@@ -70,12 +70,12 @@ string classifyColor(int r, int g, int b) {
 		distanceArr(currentArr, red,     3), 
 		distanceArr(currentArr, cyan,    3),
 		distanceArr(currentArr, blue,    3),
-    distanceArr(currentArr, grey,    3),
+		distanceArr(currentArr, grey,    3),
 		distanceArr(currentArr, black,   3),
 		distanceArr(currentArr, green,   3),
 		distanceArr(currentArr, white,   3),
-    distanceArr(currentArr, brown,   3),
-    distanceArr(currentArr, orange,  3),
+		distanceArr(currentArr, brown,   3),
+		distanceArr(currentArr, orange,  3),
 		distanceArr(currentArr, yellow,  3),
 		distanceArr(currentArr, magenta, 3),
 	};
